@@ -16,9 +16,8 @@
  */
 package org.apache.dubbo.gen.grpc.reactive;
 
-import org.apache.dubbo.gen.AbstractGenerator;
-
 import com.salesforce.jprotoc.ProtocPlugin;
+import org.apache.dubbo.gen.AbstractGenerator;
 
 public class ReactorDubboGrpcGenerator extends AbstractGenerator {
 

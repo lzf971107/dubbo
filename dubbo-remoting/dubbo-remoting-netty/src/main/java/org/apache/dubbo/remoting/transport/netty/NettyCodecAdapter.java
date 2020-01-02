@@ -19,7 +19,6 @@ package org.apache.dubbo.remoting.transport.netty;
 import org.apache.dubbo.common.URL;
 import org.apache.dubbo.remoting.Codec2;
 import org.apache.dubbo.remoting.buffer.DynamicChannelBuffer;
-
 import org.jboss.netty.buffer.ChannelBuffer;
 import org.jboss.netty.buffer.ChannelBuffers;
 import org.jboss.netty.channel.Channel;

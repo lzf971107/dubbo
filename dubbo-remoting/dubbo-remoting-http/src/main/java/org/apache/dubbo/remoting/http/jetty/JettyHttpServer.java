@@ -25,7 +25,6 @@ import org.apache.dubbo.remoting.http.HttpHandler;
 import org.apache.dubbo.remoting.http.servlet.DispatcherServlet;
 import org.apache.dubbo.remoting.http.servlet.ServletManager;
 import org.apache.dubbo.remoting.http.support.AbstractHttpServer;
-
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.server.ServerConnector;
 import org.eclipse.jetty.servlet.ServletContextHandler;
@@ -35,8 +34,8 @@ import org.eclipse.jetty.util.log.Log;
 import org.eclipse.jetty.util.log.StdErrLog;
 import org.eclipse.jetty.util.thread.QueuedThreadPool;
 
-import static org.apache.dubbo.common.constants.CommonConstants.THREADS_KEY;
 import static org.apache.dubbo.common.constants.CommonConstants.DEFAULT_THREADS;
+import static org.apache.dubbo.common.constants.CommonConstants.THREADS_KEY;
 
 public class JettyHttpServer extends AbstractHttpServer {
 

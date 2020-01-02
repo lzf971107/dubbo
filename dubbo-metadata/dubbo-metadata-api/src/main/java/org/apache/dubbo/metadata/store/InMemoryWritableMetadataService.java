@@ -16,6 +16,7 @@
  */
 package org.apache.dubbo.metadata.store;
 
+import com.google.gson.Gson;
 import org.apache.dubbo.common.URL;
 import org.apache.dubbo.common.logger.Logger;
 import org.apache.dubbo.common.logger.LoggerFactory;
@@ -25,8 +26,6 @@ import org.apache.dubbo.metadata.WritableMetadataService;
 import org.apache.dubbo.metadata.definition.ServiceDefinitionBuilder;
 import org.apache.dubbo.metadata.definition.model.ServiceDefinition;
 import org.apache.dubbo.rpc.support.ProtocolUtils;
-
-import com.google.gson.Gson;
 
 import java.util.Comparator;
 import java.util.Map;

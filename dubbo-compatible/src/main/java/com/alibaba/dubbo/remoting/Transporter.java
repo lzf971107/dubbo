@@ -17,11 +17,10 @@
 
 package com.alibaba.dubbo.remoting;
 
+import com.alibaba.dubbo.common.URL;
 import org.apache.dubbo.common.extension.Adaptive;
 import org.apache.dubbo.remoting.Constants;
 import org.apache.dubbo.remoting.RemotingServer;
-
-import com.alibaba.dubbo.common.URL;
 
 @Deprecated
 public interface Transporter extends org.apache.dubbo.remoting.Transporter {

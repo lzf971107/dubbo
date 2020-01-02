@@ -20,7 +20,6 @@ package com.alibaba.dubbo.config.spring.context.annotation;
 import org.apache.dubbo.config.AbstractConfig;
 import org.apache.dubbo.config.spring.context.annotation.DubboComponentScan;
 import org.apache.dubbo.config.spring.context.annotation.EnableDubboConfig;
-
 import org.springframework.core.annotation.AliasFor;
 
 import java.lang.annotation.Documented;

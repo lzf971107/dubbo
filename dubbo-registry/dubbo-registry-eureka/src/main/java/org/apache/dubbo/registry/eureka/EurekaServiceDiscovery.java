@@ -16,13 +16,6 @@
  */
 package org.apache.dubbo.registry.eureka;
 
-import org.apache.dubbo.common.URL;
-import org.apache.dubbo.event.EventDispatcher;
-import org.apache.dubbo.registry.client.DefaultServiceInstance;
-import org.apache.dubbo.registry.client.ServiceDiscovery;
-import org.apache.dubbo.registry.client.ServiceInstance;
-import org.apache.dubbo.registry.client.event.ServiceInstancesChangedEvent;
-
 import com.netflix.appinfo.ApplicationInfoManager;
 import com.netflix.appinfo.EurekaInstanceConfig;
 import com.netflix.appinfo.InstanceInfo;
@@ -35,6 +28,12 @@ import com.netflix.discovery.EurekaClientConfig;
 import com.netflix.discovery.EurekaEvent;
 import com.netflix.discovery.shared.Application;
 import com.netflix.discovery.shared.Applications;
+import org.apache.dubbo.common.URL;
+import org.apache.dubbo.event.EventDispatcher;
+import org.apache.dubbo.registry.client.DefaultServiceInstance;
+import org.apache.dubbo.registry.client.ServiceDiscovery;
+import org.apache.dubbo.registry.client.ServiceInstance;
+import org.apache.dubbo.registry.client.event.ServiceInstancesChangedEvent;
 
 import java.util.ArrayList;
 import java.util.Collections;

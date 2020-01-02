@@ -24,7 +24,6 @@ import org.apache.dubbo.registry.Registry;
 import org.apache.dubbo.registry.redis.RedisRegistry;
 import org.apache.dubbo.registry.zookeeper.ZookeeperRegistry;
 import org.apache.dubbo.rpc.RpcException;
-
 import redis.clients.jedis.Jedis;
 
 import java.util.Collection;

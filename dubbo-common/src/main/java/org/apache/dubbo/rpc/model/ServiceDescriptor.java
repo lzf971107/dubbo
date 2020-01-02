@@ -19,8 +19,8 @@ package org.apache.dubbo.rpc.model;
 import org.apache.dubbo.common.utils.CollectionUtils;
 
 import java.lang.reflect.Method;
-import java.util.Arrays;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;

@@ -19,7 +19,6 @@ package org.apache.dubbo.rpc.cluster.configurator.parser;
 import org.apache.dubbo.common.URL;
 import org.apache.dubbo.rpc.cluster.configurator.parser.model.ConfigItem;
 import org.apache.dubbo.rpc.cluster.configurator.parser.model.ConfiguratorConfig;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.yaml.snakeyaml.TypeDescription;

@@ -24,7 +24,6 @@ import org.apache.dubbo.config.mock.GreetingLocal3;
 import org.apache.dubbo.config.mock.GreetingMock1;
 import org.apache.dubbo.config.mock.GreetingMock2;
 import org.apache.dubbo.config.utils.ConfigValidationUtils;
-
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;

@@ -16,9 +16,8 @@
  */
 package org.apache.dubbo.gen.dubbo;
 
-import org.apache.dubbo.gen.AbstractGenerator;
-
 import com.salesforce.jprotoc.ProtocPlugin;
+import org.apache.dubbo.gen.AbstractGenerator;
 
 public class DubboGenerator extends AbstractGenerator {
 

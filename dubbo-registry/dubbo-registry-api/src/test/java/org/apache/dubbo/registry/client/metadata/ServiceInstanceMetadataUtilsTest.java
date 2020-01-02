@@ -16,10 +16,9 @@
  */
 package org.apache.dubbo.registry.client.metadata;
 
-import org.apache.dubbo.common.URL;
-
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import org.apache.dubbo.common.URL;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;

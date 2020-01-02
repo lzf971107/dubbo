@@ -16,13 +16,12 @@
  */
 package org.apache.dubbo.config.spring.extension;
 
+import com.alibaba.spring.util.BeanFactoryUtils;
 import org.apache.dubbo.common.extension.ExtensionFactory;
 import org.apache.dubbo.common.extension.SPI;
 import org.apache.dubbo.common.logger.Logger;
 import org.apache.dubbo.common.logger.LoggerFactory;
 import org.apache.dubbo.common.utils.ConcurrentHashSet;
-
-import com.alibaba.spring.util.BeanFactoryUtils;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ConfigurableApplicationContext;
 

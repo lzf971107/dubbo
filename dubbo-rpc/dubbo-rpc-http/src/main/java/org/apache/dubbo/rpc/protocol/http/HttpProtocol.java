@@ -16,6 +16,10 @@
  */
 package org.apache.dubbo.rpc.protocol.http;
 
+import com.googlecode.jsonrpc4j.HttpException;
+import com.googlecode.jsonrpc4j.JsonRpcClientException;
+import com.googlecode.jsonrpc4j.JsonRpcServer;
+import com.googlecode.jsonrpc4j.spring.JsonProxyFactoryBean;
 import org.apache.dubbo.common.URL;
 import org.apache.dubbo.remoting.RemotingServer;
 import org.apache.dubbo.remoting.http.HttpBinder;
@@ -24,11 +28,6 @@ import org.apache.dubbo.rpc.ProtocolServer;
 import org.apache.dubbo.rpc.RpcContext;
 import org.apache.dubbo.rpc.RpcException;
 import org.apache.dubbo.rpc.protocol.AbstractProxyProtocol;
-
-import com.googlecode.jsonrpc4j.HttpException;
-import com.googlecode.jsonrpc4j.JsonRpcClientException;
-import com.googlecode.jsonrpc4j.JsonRpcServer;
-import com.googlecode.jsonrpc4j.spring.JsonProxyFactoryBean;
 import org.springframework.remoting.RemoteAccessException;
 
 import javax.servlet.ServletException;

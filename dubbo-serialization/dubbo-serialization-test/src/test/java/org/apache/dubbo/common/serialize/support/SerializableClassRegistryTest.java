@@ -18,7 +18,6 @@ package org.apache.dubbo.common.serialize.support;
 
 import org.apache.dubbo.common.serialize.model.SerializablePerson;
 import org.apache.dubbo.common.serialize.model.person.Phone;
-
 import org.junit.jupiter.api.Test;
 
 import java.util.Map;

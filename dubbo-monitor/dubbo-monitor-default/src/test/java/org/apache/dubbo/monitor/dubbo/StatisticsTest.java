@@ -19,7 +19,6 @@ package org.apache.dubbo.monitor.dubbo;
 import org.apache.dubbo.common.URL;
 import org.apache.dubbo.common.URLBuilder;
 import org.apache.dubbo.monitor.MonitorService;
-
 import org.hamcrest.MatcherAssert;
 import org.junit.jupiter.api.Test;
 

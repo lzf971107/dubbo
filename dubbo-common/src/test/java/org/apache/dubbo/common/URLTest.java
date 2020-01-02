@@ -17,7 +17,6 @@
 package org.apache.dubbo.common;
 
 import org.apache.dubbo.common.utils.CollectionUtils;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

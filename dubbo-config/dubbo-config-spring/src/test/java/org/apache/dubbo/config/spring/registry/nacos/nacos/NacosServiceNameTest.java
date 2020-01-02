@@ -17,7 +17,6 @@
 package org.apache.dubbo.config.spring.registry.nacos.nacos;
 
 import org.apache.dubbo.registry.nacos.NacosServiceName;
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

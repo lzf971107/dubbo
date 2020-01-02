@@ -17,15 +17,6 @@
 
 package org.apache.dubbo.configcenter.support.etcd;
 
-import org.apache.dubbo.common.URL;
-import org.apache.dubbo.common.config.configcenter.ConfigChangeType;
-import org.apache.dubbo.common.config.configcenter.ConfigChangedEvent;
-import org.apache.dubbo.common.config.configcenter.ConfigurationListener;
-import org.apache.dubbo.common.config.configcenter.DynamicConfiguration;
-import org.apache.dubbo.common.utils.StringUtils;
-import org.apache.dubbo.remoting.etcd.StateListener;
-import org.apache.dubbo.remoting.etcd.jetcd.JEtcdClient;
-
 import com.google.protobuf.ByteString;
 import io.etcd.jetcd.api.Event;
 import io.etcd.jetcd.api.WatchCancelRequest;
@@ -35,6 +26,14 @@ import io.etcd.jetcd.api.WatchRequest;
 import io.etcd.jetcd.api.WatchResponse;
 import io.grpc.ManagedChannel;
 import io.grpc.stub.StreamObserver;
+import org.apache.dubbo.common.URL;
+import org.apache.dubbo.common.config.configcenter.ConfigChangeType;
+import org.apache.dubbo.common.config.configcenter.ConfigChangedEvent;
+import org.apache.dubbo.common.config.configcenter.ConfigurationListener;
+import org.apache.dubbo.common.config.configcenter.DynamicConfiguration;
+import org.apache.dubbo.common.utils.StringUtils;
+import org.apache.dubbo.remoting.etcd.StateListener;
+import org.apache.dubbo.remoting.etcd.jetcd.JEtcdClient;
 
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;

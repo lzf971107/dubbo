@@ -25,7 +25,6 @@ import org.apache.dubbo.config.MonitorConfig;
 import org.apache.dubbo.config.utils.ConfigValidationUtils;
 import org.apache.dubbo.monitor.MonitorService;
 import org.apache.dubbo.registry.RegistryService;
-
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;

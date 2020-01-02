@@ -18,7 +18,6 @@ package org.apache.dubbo.config.spring.annotation.merged;
 
 
 import org.apache.dubbo.config.annotation.Reference;
-
 import org.springframework.core.annotation.AliasFor;
 
 import java.lang.annotation.Documented;

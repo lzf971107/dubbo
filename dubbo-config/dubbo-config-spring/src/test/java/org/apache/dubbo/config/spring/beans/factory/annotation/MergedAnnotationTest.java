@@ -21,7 +21,6 @@ import org.apache.dubbo.config.annotation.Service;
 import org.apache.dubbo.config.spring.annotation.merged.MergedReference;
 import org.apache.dubbo.config.spring.annotation.merged.MergedService;
 import org.apache.dubbo.config.spring.api.DemoService;
-
 import org.junit.Assert;
 import org.junit.Test;
 import org.springframework.core.annotation.AnnotatedElementUtils;

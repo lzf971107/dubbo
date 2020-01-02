@@ -20,7 +20,6 @@ import org.apache.dubbo.common.URL;
 import org.apache.dubbo.common.utils.NetUtils;
 import org.apache.dubbo.remoting.RemotingServer;
 import org.apache.dubbo.remoting.transport.ChannelHandlerAdapter;
-
 import org.junit.jupiter.api.Test;
 
 import static org.apache.dubbo.remoting.Constants.BIND_PORT_KEY;

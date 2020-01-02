@@ -18,7 +18,6 @@ package org.apache.dubbo.registry.support;
 
 import org.apache.dubbo.common.URL;
 import org.apache.dubbo.registry.NotifyListener;
-
 import org.hamcrest.MatcherAssert;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.AfterEach;

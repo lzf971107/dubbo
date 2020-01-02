@@ -17,7 +17,6 @@
 package org.apache.dubbo.common.serialize.protobuf.support;
 
 import org.apache.dubbo.common.serialize.protobuf.support.model.GooglePB;
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

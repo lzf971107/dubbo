@@ -17,14 +17,13 @@
 package org.apache.dubbo.filter;
 
 
-import org.apache.dubbo.rpc.AppResponse;
-import org.apache.dubbo.service.DemoService;
-
 import com.alibaba.dubbo.common.URL;
 import com.alibaba.dubbo.rpc.Invocation;
 import com.alibaba.dubbo.rpc.Invoker;
 import com.alibaba.dubbo.rpc.Result;
 import com.alibaba.dubbo.rpc.RpcException;
+import org.apache.dubbo.rpc.AppResponse;
+import org.apache.dubbo.service.DemoService;
 
 public class LegacyInvoker<T> implements Invoker<T> {
 

@@ -17,15 +17,14 @@
 
 package org.apache.dubbo.configcenter.support.etcd;
 
-import org.apache.dubbo.common.URL;
-import org.apache.dubbo.common.config.configcenter.ConfigChangedEvent;
-import org.apache.dubbo.common.config.configcenter.ConfigurationListener;
-import org.apache.dubbo.common.config.configcenter.DynamicConfiguration;
-
 import io.etcd.jetcd.ByteSequence;
 import io.etcd.jetcd.Client;
 import io.etcd.jetcd.launcher.EtcdCluster;
 import io.etcd.jetcd.launcher.EtcdClusterFactory;
+import org.apache.dubbo.common.URL;
+import org.apache.dubbo.common.config.configcenter.ConfigChangedEvent;
+import org.apache.dubbo.common.config.configcenter.ConfigurationListener;
+import org.apache.dubbo.common.config.configcenter.DynamicConfiguration;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;

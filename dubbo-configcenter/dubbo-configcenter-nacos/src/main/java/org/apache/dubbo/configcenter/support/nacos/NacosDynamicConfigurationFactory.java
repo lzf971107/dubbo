@@ -17,12 +17,11 @@
 
 package org.apache.dubbo.configcenter.support.nacos;
 
+import com.alibaba.nacos.api.PropertyKeyConst;
 import org.apache.dubbo.common.URL;
 import org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationFactory;
 import org.apache.dubbo.common.config.configcenter.DynamicConfiguration;
 import org.apache.dubbo.common.constants.CommonConstants;
-
-import com.alibaba.nacos.api.PropertyKeyConst;
 
 /**
  * The nacos implementation of {@link AbstractDynamicConfigurationFactory}

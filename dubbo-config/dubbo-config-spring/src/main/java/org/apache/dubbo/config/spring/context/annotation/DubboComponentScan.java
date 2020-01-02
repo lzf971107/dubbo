@@ -18,7 +18,6 @@ package org.apache.dubbo.config.spring.context.annotation;
 
 import org.apache.dubbo.config.annotation.Reference;
 import org.apache.dubbo.config.annotation.Service;
-
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.Annotation;

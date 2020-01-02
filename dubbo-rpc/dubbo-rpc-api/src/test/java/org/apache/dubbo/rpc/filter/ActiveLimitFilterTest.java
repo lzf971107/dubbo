@@ -26,7 +26,6 @@ import org.apache.dubbo.rpc.support.BlockMyInvoker;
 import org.apache.dubbo.rpc.support.MockInvocation;
 import org.apache.dubbo.rpc.support.MyInvoker;
 import org.apache.dubbo.rpc.support.RuntimeExceptionInvoker;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

@@ -16,9 +16,6 @@
  */
 package org.apache.dubbo.remoting.transport;
 
-import java.io.IOException;
-import java.net.InetSocketAddress;
-
 import org.apache.dubbo.common.URL;
 import org.apache.dubbo.common.logger.Logger;
 import org.apache.dubbo.common.logger.LoggerFactory;
@@ -27,6 +24,9 @@ import org.apache.dubbo.common.utils.NetUtils;
 import org.apache.dubbo.remoting.Channel;
 import org.apache.dubbo.remoting.Codec2;
 import org.apache.dubbo.remoting.Constants;
+
+import java.io.IOException;
+import java.net.InetSocketAddress;
 
 import static org.apache.dubbo.common.constants.CommonConstants.SIDE_KEY;
 

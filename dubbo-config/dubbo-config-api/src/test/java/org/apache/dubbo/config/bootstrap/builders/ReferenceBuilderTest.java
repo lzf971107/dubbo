@@ -20,7 +20,6 @@ import org.apache.dubbo.config.ConsumerConfig;
 import org.apache.dubbo.config.MethodConfig;
 import org.apache.dubbo.config.ReferenceConfig;
 import org.apache.dubbo.config.api.DemoService;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

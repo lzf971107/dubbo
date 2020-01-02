@@ -16,9 +16,6 @@
  */
 package org.apache.dubbo.common.serialize.protobuf.support;
 
-import org.apache.dubbo.common.serialize.ObjectOutput;
-import org.apache.dubbo.common.serialize.protobuf.support.wrapper.MapValue;
-
 import com.google.protobuf.BoolValue;
 import com.google.protobuf.ByteString;
 import com.google.protobuf.BytesValue;
@@ -27,6 +24,8 @@ import com.google.protobuf.FloatValue;
 import com.google.protobuf.Int32Value;
 import com.google.protobuf.Int64Value;
 import com.google.protobuf.StringValue;
+import org.apache.dubbo.common.serialize.ObjectOutput;
+import org.apache.dubbo.common.serialize.protobuf.support.wrapper.MapValue;
 
 import java.io.IOException;
 import java.io.OutputStream;

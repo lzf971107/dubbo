@@ -21,7 +21,6 @@ package org.apache.dubbo.demo.consumer.comp;
 
 import org.apache.dubbo.config.annotation.Reference;
 import org.apache.dubbo.demo.DemoService;
-
 import org.springframework.stereotype.Component;
 
 import java.util.concurrent.CompletableFuture;

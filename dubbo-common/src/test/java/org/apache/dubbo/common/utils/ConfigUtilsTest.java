@@ -18,7 +18,6 @@ package org.apache.dubbo.common.utils;
 
 import org.apache.dubbo.common.constants.CommonConstants;
 import org.apache.dubbo.common.threadpool.ThreadPool;
-
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;

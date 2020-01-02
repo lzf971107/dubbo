@@ -17,9 +17,8 @@
 
 package com.alibaba.dubbo.rpc;
 
-import org.apache.dubbo.rpc.FutureContext;
-
 import com.alibaba.dubbo.rpc.protocol.dubbo.FutureAdapter;
+import org.apache.dubbo.rpc.FutureContext;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.Future;

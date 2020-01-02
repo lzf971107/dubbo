@@ -25,8 +25,8 @@ import org.junit.jupiter.api.Test;
 import static org.apache.dubbo.common.status.Status.Level.OK;
 import static org.apache.dubbo.common.status.Status.Level.WARN;
 import static org.hamcrest.CoreMatchers.anyOf;
-import static org.hamcrest.Matchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.is;
 
 public class MemoryStatusCheckerTest {
     private static final Logger logger = LoggerFactory.getLogger(MemoryStatusCheckerTest.class);

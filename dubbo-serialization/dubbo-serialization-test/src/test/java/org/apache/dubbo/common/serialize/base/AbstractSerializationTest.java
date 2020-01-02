@@ -32,7 +32,6 @@ import org.apache.dubbo.common.serialize.model.person.FullAddress;
 import org.apache.dubbo.common.serialize.model.person.PersonInfo;
 import org.apache.dubbo.common.serialize.model.person.PersonStatus;
 import org.apache.dubbo.common.serialize.model.person.Phone;
-
 import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayInputStream;

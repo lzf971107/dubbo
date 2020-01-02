@@ -21,7 +21,6 @@ import org.apache.dubbo.common.URL;
 import org.apache.dubbo.common.threadlocal.InternalThread;
 import org.apache.dubbo.common.threadpool.ThreadPool;
 import org.apache.dubbo.common.threadpool.support.AbortPolicyWithReport;
-
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Test;
 

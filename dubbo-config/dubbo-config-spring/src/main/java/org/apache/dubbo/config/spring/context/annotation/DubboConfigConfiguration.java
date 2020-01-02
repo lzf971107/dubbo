@@ -16,6 +16,8 @@
  */
 package org.apache.dubbo.config.spring.context.annotation;
 
+import com.alibaba.spring.beans.factory.annotation.EnableConfigurationBeanBinding;
+import com.alibaba.spring.beans.factory.annotation.EnableConfigurationBeanBindings;
 import org.apache.dubbo.config.AbstractConfig;
 import org.apache.dubbo.config.ApplicationConfig;
 import org.apache.dubbo.config.ConsumerConfig;
@@ -28,9 +30,6 @@ import org.apache.dubbo.config.ProviderConfig;
 import org.apache.dubbo.config.RegistryConfig;
 import org.apache.dubbo.config.SslConfig;
 import org.apache.dubbo.config.spring.ConfigCenterBean;
-
-import com.alibaba.spring.beans.factory.annotation.EnableConfigurationBeanBinding;
-import com.alibaba.spring.beans.factory.annotation.EnableConfigurationBeanBindings;
 import org.springframework.context.annotation.Configuration;
 
 /**

@@ -16,10 +16,9 @@
  */
 package org.apache.dubbo.registry.zookeeper.util;
 
+import org.apache.curator.framework.CuratorFramework;
 import org.apache.dubbo.common.URL;
 import org.apache.dubbo.registry.client.ServiceInstance;
-
-import org.apache.curator.framework.CuratorFramework;
 
 import java.util.concurrent.TimeUnit;
 import java.util.function.Function;

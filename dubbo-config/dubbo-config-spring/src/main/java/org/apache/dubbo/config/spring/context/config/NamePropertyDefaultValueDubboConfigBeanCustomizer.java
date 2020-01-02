@@ -17,7 +17,6 @@
 package org.apache.dubbo.config.spring.context.config;
 
 import org.apache.dubbo.config.AbstractConfig;
-
 import org.springframework.util.ReflectionUtils;
 
 import java.beans.PropertyDescriptor;

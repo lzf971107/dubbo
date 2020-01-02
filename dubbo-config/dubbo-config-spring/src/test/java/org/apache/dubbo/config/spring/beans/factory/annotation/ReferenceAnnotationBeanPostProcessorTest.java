@@ -22,7 +22,6 @@ import org.apache.dubbo.config.spring.ReferenceBean;
 import org.apache.dubbo.config.spring.api.DemoService;
 import org.apache.dubbo.config.spring.api.HelloService;
 import org.apache.dubbo.config.utils.ReferenceConfigCache;
-
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

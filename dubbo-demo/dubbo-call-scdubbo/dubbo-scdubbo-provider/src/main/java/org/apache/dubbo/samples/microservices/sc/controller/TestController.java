@@ -17,7 +17,6 @@
 package org.apache.dubbo.samples.microservices.sc.controller;
 
 import org.apache.dubbo.samples.microservices.sc.feign.TestFeign;
-
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

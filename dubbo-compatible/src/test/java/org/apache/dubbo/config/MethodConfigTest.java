@@ -17,11 +17,10 @@
 
 package org.apache.dubbo.config;
 
-import org.apache.dubbo.rpc.model.AsyncMethodInfo;
-import org.apache.dubbo.service.Person;
-
 import com.alibaba.dubbo.config.ArgumentConfig;
 import com.alibaba.dubbo.config.MethodConfig;
+import org.apache.dubbo.rpc.model.AsyncMethodInfo;
+import org.apache.dubbo.service.Person;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Test;
 

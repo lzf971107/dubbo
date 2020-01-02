@@ -17,7 +17,6 @@
 package org.apache.dubbo.descriptor;
 
 import org.apache.dubbo.rpc.model.MethodDescriptor;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

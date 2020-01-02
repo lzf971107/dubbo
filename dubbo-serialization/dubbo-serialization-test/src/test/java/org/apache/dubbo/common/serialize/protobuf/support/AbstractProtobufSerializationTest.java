@@ -21,7 +21,6 @@ import org.apache.dubbo.common.serialize.ObjectInput;
 import org.apache.dubbo.common.serialize.ObjectOutput;
 import org.apache.dubbo.common.serialize.Serialization;
 import org.apache.dubbo.common.serialize.protobuf.support.model.GooglePB;
-
 import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayInputStream;

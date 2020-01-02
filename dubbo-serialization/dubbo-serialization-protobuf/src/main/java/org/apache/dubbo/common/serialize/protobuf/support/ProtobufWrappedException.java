@@ -16,10 +16,9 @@
  */
 package org.apache.dubbo.common.serialize.protobuf.support;
 
+import com.google.common.base.Strings;
 import org.apache.dubbo.common.serialize.protobuf.support.wrapper.ThrowablePB;
 import org.apache.dubbo.common.serialize.protobuf.support.wrapper.ThrowablePB.ThrowableProto;
-
-import com.google.common.base.Strings;
 
 /**
  * For protobuf, all server side exceptions should be wrapped using this specific one.

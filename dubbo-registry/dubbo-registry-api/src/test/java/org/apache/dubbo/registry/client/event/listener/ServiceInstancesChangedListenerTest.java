@@ -19,7 +19,6 @@ package org.apache.dubbo.registry.client.event.listener;
 import org.apache.dubbo.event.Event;
 import org.apache.dubbo.event.EventDispatcher;
 import org.apache.dubbo.registry.client.event.ServiceInstancesChangedEvent;
-
 import org.junit.jupiter.api.Test;
 
 import java.util.concurrent.atomic.AtomicReference;

@@ -16,6 +16,10 @@
  */
 package org.apache.dubbo.common.config.configcenter.file;
 
+import com.sun.nio.file.SensitivityWatchEventModifier;
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.apache.dubbo.common.URL;
 import org.apache.dubbo.common.config.configcenter.AbstractDynamicConfiguration;
 import org.apache.dubbo.common.config.configcenter.ConfigChangeType;
@@ -26,11 +30,6 @@ import org.apache.dubbo.common.function.ThrowableConsumer;
 import org.apache.dubbo.common.function.ThrowableFunction;
 import org.apache.dubbo.common.utils.NamedThreadFactory;
 import org.apache.dubbo.common.utils.StringUtils;
-
-import com.sun.nio.file.SensitivityWatchEventModifier;
-import org.apache.commons.io.FileUtils;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
 
 import java.io.File;
 import java.io.IOException;

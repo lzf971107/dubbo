@@ -19,7 +19,6 @@ package org.apache.dubbo.registry.eureka;
 import org.apache.dubbo.common.URL;
 import org.apache.dubbo.registry.client.DefaultServiceInstance;
 import org.apache.dubbo.registry.client.ServiceInstance;
-
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -16,13 +16,12 @@
  */
 package org.apache.dubbo.config.spring.context.annotation;
 
+import com.alibaba.spring.beans.factory.annotation.EnableConfigurationBeanBinding;
 import org.apache.dubbo.config.AbstractConfig;
 import org.apache.dubbo.config.ApplicationConfig;
 import org.apache.dubbo.config.ModuleConfig;
 import org.apache.dubbo.config.RegistryConfig;
 import org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor;
-
-import com.alibaba.spring.beans.factory.annotation.EnableConfigurationBeanBinding;
 import org.springframework.context.annotation.Import;
 import org.springframework.core.env.PropertySources;
 

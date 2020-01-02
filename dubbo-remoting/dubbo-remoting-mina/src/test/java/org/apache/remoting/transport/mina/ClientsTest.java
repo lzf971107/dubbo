@@ -19,7 +19,6 @@ package org.apache.remoting.transport.mina;
 import org.apache.dubbo.common.extension.ExtensionLoader;
 import org.apache.dubbo.remoting.Transporter;
 import org.apache.dubbo.remoting.transport.mina.MinaTransporter;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

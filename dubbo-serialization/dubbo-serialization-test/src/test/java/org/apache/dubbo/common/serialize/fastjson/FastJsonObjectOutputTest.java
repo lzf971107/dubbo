@@ -17,7 +17,6 @@
 package org.apache.dubbo.common.serialize.fastjson;
 
 import org.apache.dubbo.common.serialize.model.media.Image;
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

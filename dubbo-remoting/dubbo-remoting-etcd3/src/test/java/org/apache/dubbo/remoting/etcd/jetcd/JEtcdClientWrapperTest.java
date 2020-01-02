@@ -34,7 +34,6 @@
 package org.apache.dubbo.remoting.etcd.jetcd;
 
 import org.apache.dubbo.common.URL;
-
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;

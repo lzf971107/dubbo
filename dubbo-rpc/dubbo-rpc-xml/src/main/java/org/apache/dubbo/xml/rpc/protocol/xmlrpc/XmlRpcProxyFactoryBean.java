@@ -16,10 +16,9 @@
  */
 package org.apache.dubbo.xml.rpc.protocol.xmlrpc;
 
-import org.apache.dubbo.rpc.RpcException;
-
 import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;
+import org.apache.dubbo.rpc.RpcException;
 import org.apache.xmlrpc.client.XmlRpcClient;
 import org.apache.xmlrpc.client.XmlRpcClientConfigImpl;
 import org.springframework.aop.framework.ProxyFactory;

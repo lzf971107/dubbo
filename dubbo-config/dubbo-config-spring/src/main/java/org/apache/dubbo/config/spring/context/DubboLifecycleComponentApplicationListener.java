@@ -18,7 +18,6 @@ package org.apache.dubbo.config.spring.context;
 
 
 import org.apache.dubbo.common.context.Lifecycle;
-
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ApplicationContextEvent;

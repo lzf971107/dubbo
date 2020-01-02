@@ -19,7 +19,6 @@ package org.apache.dubbo.config.spring.beans.factory.annotation;
 import org.apache.dubbo.config.annotation.Reference;
 import org.apache.dubbo.config.annotation.Service;
 import org.apache.dubbo.config.spring.api.DemoService;
-
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

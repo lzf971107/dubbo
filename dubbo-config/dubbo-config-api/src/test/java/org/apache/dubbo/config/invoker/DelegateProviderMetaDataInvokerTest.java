@@ -21,7 +21,6 @@ import org.apache.dubbo.config.ServiceConfig;
 import org.apache.dubbo.config.api.Greeting;
 import org.apache.dubbo.rpc.Invocation;
 import org.apache.dubbo.rpc.Invoker;
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;

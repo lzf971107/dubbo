@@ -16,13 +16,13 @@
  */
 package org.apache.dubbo.auth.filter;
 
+import org.apache.dubbo.auth.Constants;
 import org.apache.dubbo.auth.spi.AuthenticationHelper;
 import org.apache.dubbo.common.URL;
 import org.apache.dubbo.common.constants.CommonConstants;
 import org.apache.dubbo.common.extension.Activate;
 import org.apache.dubbo.common.extension.ExtensionLoader;
 import org.apache.dubbo.rpc.AsyncRpcResult;
-import org.apache.dubbo.auth.Constants;
 import org.apache.dubbo.rpc.Filter;
 import org.apache.dubbo.rpc.Invocation;
 import org.apache.dubbo.rpc.Invoker;

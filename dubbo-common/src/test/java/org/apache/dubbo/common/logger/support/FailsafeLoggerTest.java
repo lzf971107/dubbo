@@ -17,7 +17,6 @@
 package org.apache.dubbo.common.logger.support;
 
 import org.apache.dubbo.common.logger.Logger;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

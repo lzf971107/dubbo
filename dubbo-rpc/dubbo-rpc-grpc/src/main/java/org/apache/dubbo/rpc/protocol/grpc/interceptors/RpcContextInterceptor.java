@@ -16,9 +16,6 @@
  */
 package org.apache.dubbo.rpc.protocol.grpc.interceptors;
 
-import org.apache.dubbo.common.extension.Activate;
-import org.apache.dubbo.rpc.RpcContext;
-
 import io.grpc.CallOptions;
 import io.grpc.Channel;
 import io.grpc.ClientCall;
@@ -26,6 +23,8 @@ import io.grpc.Metadata;
 import io.grpc.MethodDescriptor;
 import io.grpc.ServerCall;
 import io.grpc.ServerCallHandler;
+import org.apache.dubbo.common.extension.Activate;
+import org.apache.dubbo.rpc.RpcContext;
 
 import java.util.Map;
 import java.util.Set;

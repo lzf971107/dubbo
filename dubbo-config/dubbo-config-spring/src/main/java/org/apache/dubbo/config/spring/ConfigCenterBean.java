@@ -20,7 +20,6 @@ import org.apache.dubbo.common.config.ConfigurationUtils;
 import org.apache.dubbo.common.utils.StringUtils;
 import org.apache.dubbo.config.ConfigCenterConfig;
 import org.apache.dubbo.config.spring.extension.SpringExtensionFactory;
-
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;

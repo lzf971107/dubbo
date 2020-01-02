@@ -20,7 +20,6 @@ import org.apache.dubbo.config.ApplicationConfig;
 import org.apache.dubbo.config.ProtocolConfig;
 import org.apache.dubbo.config.spring.context.config.NamePropertyDefaultValueDubboConfigBeanCustomizer;
 import org.apache.dubbo.config.spring.context.properties.DefaultDubboConfigBinder;
-
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

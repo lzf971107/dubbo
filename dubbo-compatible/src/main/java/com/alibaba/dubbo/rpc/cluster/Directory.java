@@ -17,11 +17,10 @@
 
 package com.alibaba.dubbo.rpc.cluster;
 
+import com.alibaba.dubbo.common.URL;
 import org.apache.dubbo.rpc.Invocation;
 import org.apache.dubbo.rpc.Invoker;
 import org.apache.dubbo.rpc.RpcException;
-
-import com.alibaba.dubbo.common.URL;
 
 import java.util.List;
 import java.util.stream.Collectors;

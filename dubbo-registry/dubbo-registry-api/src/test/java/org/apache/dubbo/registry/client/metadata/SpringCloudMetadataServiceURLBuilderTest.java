@@ -18,7 +18,6 @@ package org.apache.dubbo.registry.client.metadata;
 
 import org.apache.dubbo.common.URL;
 import org.apache.dubbo.registry.client.DefaultServiceInstance;
-
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

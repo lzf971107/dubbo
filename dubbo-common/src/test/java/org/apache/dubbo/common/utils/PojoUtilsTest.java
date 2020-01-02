@@ -24,7 +24,6 @@ import org.apache.dubbo.common.model.person.FullAddress;
 import org.apache.dubbo.common.model.person.PersonInfo;
 import org.apache.dubbo.common.model.person.PersonStatus;
 import org.apache.dubbo.common.model.person.Phone;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

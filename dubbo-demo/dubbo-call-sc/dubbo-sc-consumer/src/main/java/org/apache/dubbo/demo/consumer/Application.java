@@ -18,7 +18,6 @@ package org.apache.dubbo.demo.consumer;
 
 import org.apache.dubbo.samples.microservices.sc.rest.User;
 import org.apache.dubbo.samples.microservices.sc.rest.UserService;
-
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Application {

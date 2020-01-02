@@ -33,9 +33,6 @@
  */
 package org.apache.dubbo.remoting.etcd.jetcd;
 
-import org.apache.dubbo.common.URL;
-import org.apache.dubbo.remoting.etcd.ChildListener;
-
 import com.google.protobuf.ByteString;
 import io.etcd.jetcd.ByteSequence;
 import io.etcd.jetcd.Client;
@@ -51,6 +48,8 @@ import io.etcd.jetcd.watch.WatchEvent;
 import io.grpc.ManagedChannel;
 import io.grpc.Status;
 import io.grpc.stub.StreamObserver;
+import org.apache.dubbo.common.URL;
+import org.apache.dubbo.remoting.etcd.ChildListener;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;

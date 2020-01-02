@@ -23,7 +23,6 @@ import org.apache.dubbo.remoting.Constants;
 import org.apache.dubbo.remoting.RemotingException;
 import org.apache.dubbo.remoting.RemotingServer;
 import org.apache.dubbo.remoting.transport.ChannelHandlerAdapter;
-
 import org.junit.jupiter.api.Test;
 
 import java.util.concurrent.CountDownLatch;

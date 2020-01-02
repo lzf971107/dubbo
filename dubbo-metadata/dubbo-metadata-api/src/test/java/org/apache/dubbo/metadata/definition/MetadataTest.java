@@ -16,6 +16,7 @@
  */
 package org.apache.dubbo.metadata.definition;
 
+import com.google.gson.Gson;
 import org.apache.dubbo.metadata.definition.builder.CollectionTypeBuilder;
 import org.apache.dubbo.metadata.definition.builder.DefaultTypeBuilder;
 import org.apache.dubbo.metadata.definition.builder.EnumTypeBuilder;
@@ -27,8 +28,6 @@ import org.apache.dubbo.metadata.definition.common.ResultWithRawCollections;
 import org.apache.dubbo.metadata.definition.common.TestService;
 import org.apache.dubbo.metadata.definition.model.ServiceDefinition;
 import org.apache.dubbo.metadata.definition.model.TypeDefinition;
-
-import com.google.gson.Gson;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

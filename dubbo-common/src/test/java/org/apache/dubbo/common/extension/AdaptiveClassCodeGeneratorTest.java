@@ -18,7 +18,6 @@ package org.apache.dubbo.common.extension;
 
 import org.apache.dubbo.common.extension.adaptive.HasAdaptiveExt;
 import org.apache.dubbo.common.utils.IOUtils;
-
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;

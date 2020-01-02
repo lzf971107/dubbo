@@ -17,7 +17,6 @@
 package org.apache.dubbo.config.spring.registry.nacos.demo.provider;
 
 import org.apache.dubbo.config.spring.context.annotation.EnableDubbo;
-
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.PropertySource;
 

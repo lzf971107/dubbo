@@ -16,14 +16,11 @@
  */
 package org.apache.dubbo.common.serialize.kryo.utils;
 
-import com.esotericsoftware.kryo.serializers.JavaSerializer;
-import org.apache.dubbo.common.serialize.kryo.CompatibleKryo;
-import org.apache.dubbo.common.serialize.support.SerializableClassRegistry;
-
 import com.esotericsoftware.kryo.Kryo;
 import com.esotericsoftware.kryo.Serializer;
 import com.esotericsoftware.kryo.pool.KryoFactory;
 import com.esotericsoftware.kryo.serializers.DefaultSerializers;
+import com.esotericsoftware.kryo.serializers.JavaSerializer;
 import de.javakaffee.kryoserializers.ArraysAsListSerializer;
 import de.javakaffee.kryoserializers.BitSetSerializer;
 import de.javakaffee.kryoserializers.GregorianCalendarSerializer;
@@ -33,6 +30,8 @@ import de.javakaffee.kryoserializers.SynchronizedCollectionsSerializer;
 import de.javakaffee.kryoserializers.URISerializer;
 import de.javakaffee.kryoserializers.UUIDSerializer;
 import de.javakaffee.kryoserializers.UnmodifiableCollectionsSerializer;
+import org.apache.dubbo.common.serialize.kryo.CompatibleKryo;
+import org.apache.dubbo.common.serialize.support.SerializableClassRegistry;
 
 import java.lang.reflect.InvocationHandler;
 import java.math.BigDecimal;

@@ -16,8 +16,6 @@
  */
 package org.apache.dubbo.configcenter.consul;
 
-import org.apache.dubbo.common.URL;
-
 import com.google.common.net.HostAndPort;
 import com.orbitz.consul.Consul;
 import com.orbitz.consul.KeyValueClient;
@@ -25,6 +23,7 @@ import com.orbitz.consul.cache.KVCache;
 import com.orbitz.consul.model.kv.Value;
 import com.pszymczyk.consul.ConsulProcess;
 import com.pszymczyk.consul.ConsulStarterBuilder;
+import org.apache.dubbo.common.URL;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;

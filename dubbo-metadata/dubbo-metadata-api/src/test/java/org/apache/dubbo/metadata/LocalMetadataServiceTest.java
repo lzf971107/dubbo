@@ -17,7 +17,6 @@
 package org.apache.dubbo.metadata;
 
 import org.apache.dubbo.metadata.store.InMemoryWritableMetadataService;
-
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

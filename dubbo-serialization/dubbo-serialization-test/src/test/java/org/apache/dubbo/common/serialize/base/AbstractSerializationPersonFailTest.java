@@ -18,7 +18,6 @@ package org.apache.dubbo.common.serialize.base;
 
 import org.apache.dubbo.common.serialize.ObjectOutput;
 import org.apache.dubbo.common.serialize.model.Person;
-
 import org.junit.jupiter.api.Test;
 
 import java.io.NotSerializableException;

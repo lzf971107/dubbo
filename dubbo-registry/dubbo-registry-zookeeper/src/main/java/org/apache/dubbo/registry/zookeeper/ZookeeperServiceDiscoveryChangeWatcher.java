@@ -16,10 +16,9 @@
  */
 package org.apache.dubbo.registry.zookeeper;
 
+import org.apache.curator.framework.api.CuratorWatcher;
 import org.apache.dubbo.registry.client.ServiceDiscovery;
 import org.apache.dubbo.registry.client.event.ServiceInstancesChangedEvent;
-
-import org.apache.curator.framework.api.CuratorWatcher;
 import org.apache.zookeeper.WatchedEvent;
 import org.apache.zookeeper.Watcher;
 

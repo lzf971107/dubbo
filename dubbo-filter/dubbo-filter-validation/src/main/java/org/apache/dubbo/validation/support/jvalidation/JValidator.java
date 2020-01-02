@@ -16,14 +16,6 @@
  */
 package org.apache.dubbo.validation.support.jvalidation;
 
-import org.apache.dubbo.common.URL;
-import org.apache.dubbo.common.bytecode.ClassGenerator;
-import org.apache.dubbo.common.logger.Logger;
-import org.apache.dubbo.common.logger.LoggerFactory;
-import org.apache.dubbo.common.utils.ReflectUtils;
-import org.apache.dubbo.validation.MethodValidated;
-import org.apache.dubbo.validation.Validator;
-
 import javassist.ClassPool;
 import javassist.CtClass;
 import javassist.CtField;
@@ -46,6 +38,13 @@ import javassist.bytecode.annotation.LongMemberValue;
 import javassist.bytecode.annotation.MemberValue;
 import javassist.bytecode.annotation.ShortMemberValue;
 import javassist.bytecode.annotation.StringMemberValue;
+import org.apache.dubbo.common.URL;
+import org.apache.dubbo.common.bytecode.ClassGenerator;
+import org.apache.dubbo.common.logger.Logger;
+import org.apache.dubbo.common.logger.LoggerFactory;
+import org.apache.dubbo.common.utils.ReflectUtils;
+import org.apache.dubbo.validation.MethodValidated;
+import org.apache.dubbo.validation.Validator;
 
 import javax.validation.Constraint;
 import javax.validation.ConstraintViolation;

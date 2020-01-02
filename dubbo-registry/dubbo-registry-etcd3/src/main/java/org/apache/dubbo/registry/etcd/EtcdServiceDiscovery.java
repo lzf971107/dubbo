@@ -16,6 +16,7 @@
  */
 package org.apache.dubbo.registry.etcd;
 
+import com.google.gson.Gson;
 import org.apache.dubbo.common.URL;
 import org.apache.dubbo.common.extension.ExtensionLoader;
 import org.apache.dubbo.common.logger.Logger;
@@ -35,8 +36,6 @@ import org.apache.dubbo.remoting.etcd.EtcdTransporter;
 import org.apache.dubbo.remoting.etcd.StateListener;
 import org.apache.dubbo.remoting.etcd.option.OptionUtil;
 import org.apache.dubbo.rpc.RpcException;
-
-import com.google.gson.Gson;
 
 import java.io.File;
 import java.util.ArrayList;

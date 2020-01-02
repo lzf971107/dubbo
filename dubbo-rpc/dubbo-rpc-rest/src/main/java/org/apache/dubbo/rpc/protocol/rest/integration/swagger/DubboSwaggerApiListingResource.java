@@ -16,10 +16,9 @@
  */
 package org.apache.dubbo.rpc.protocol.rest.integration.swagger;
 
-import org.apache.dubbo.config.annotation.Service;
-
 import com.fasterxml.jackson.core.JsonProcessingException;
 import io.swagger.jaxrs.listing.BaseApiListingResource;
+import org.apache.dubbo.config.annotation.Service;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletContext;

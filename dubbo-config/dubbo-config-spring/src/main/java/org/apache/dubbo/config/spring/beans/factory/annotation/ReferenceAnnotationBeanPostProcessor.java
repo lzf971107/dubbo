@@ -16,13 +16,12 @@
  */
 package org.apache.dubbo.config.spring.beans.factory.annotation;
 
+import com.alibaba.spring.beans.factory.annotation.AbstractAnnotationBeanPostProcessor;
 import org.apache.dubbo.config.annotation.Reference;
 import org.apache.dubbo.config.annotation.Service;
 import org.apache.dubbo.config.spring.ReferenceBean;
 import org.apache.dubbo.config.spring.ServiceBean;
 import org.apache.dubbo.config.spring.context.event.ServiceBeanExportedEvent;
-
-import com.alibaba.spring.beans.factory.annotation.AbstractAnnotationBeanPostProcessor;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.InjectionMetadata;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;

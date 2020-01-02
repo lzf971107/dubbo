@@ -23,7 +23,6 @@ import org.apache.dubbo.rpc.Invoker;
 import org.apache.dubbo.rpc.Protocol;
 import org.apache.dubbo.rpc.Result;
 import org.apache.dubbo.rpc.RpcException;
-
 import org.mockito.Mockito;
 
 public class MockProtocol implements Protocol {

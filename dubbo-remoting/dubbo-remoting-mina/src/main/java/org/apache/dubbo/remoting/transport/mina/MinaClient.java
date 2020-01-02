@@ -27,7 +27,6 @@ import org.apache.dubbo.remoting.ChannelHandler;
 import org.apache.dubbo.remoting.Constants;
 import org.apache.dubbo.remoting.RemotingException;
 import org.apache.dubbo.remoting.transport.AbstractClient;
-
 import org.apache.mina.common.ConnectFuture;
 import org.apache.mina.common.IoFuture;
 import org.apache.mina.common.IoFutureListener;

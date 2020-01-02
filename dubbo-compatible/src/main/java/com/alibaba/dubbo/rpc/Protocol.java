@@ -17,9 +17,8 @@
 
 package com.alibaba.dubbo.rpc;
 
-import org.apache.dubbo.rpc.ProtocolServer;
-
 import com.alibaba.dubbo.common.URL;
+import org.apache.dubbo.rpc.ProtocolServer;
 
 import java.util.Collections;
 import java.util.List;

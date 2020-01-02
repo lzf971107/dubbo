@@ -16,12 +16,11 @@
  */
 package org.apache.dubbo.configcenter.support.apollo;
 
+import com.ctrip.framework.apollo.mockserver.EmbeddedApollo;
+import com.google.common.util.concurrent.SettableFuture;
 import org.apache.dubbo.common.URL;
 import org.apache.dubbo.common.config.configcenter.ConfigChangeType;
 import org.apache.dubbo.common.config.configcenter.ConfigurationListener;
-
-import com.ctrip.framework.apollo.mockserver.EmbeddedApollo;
-import com.google.common.util.concurrent.SettableFuture;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.ClassRule;

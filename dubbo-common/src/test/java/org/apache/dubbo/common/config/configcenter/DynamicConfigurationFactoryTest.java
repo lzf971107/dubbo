@@ -17,7 +17,6 @@
 package org.apache.dubbo.common.config.configcenter;
 
 import org.apache.dubbo.common.config.configcenter.nop.NopDynamicConfigurationFactory;
-
 import org.junit.jupiter.api.Test;
 
 import static org.apache.dubbo.common.extension.ExtensionLoader.getExtensionLoader;

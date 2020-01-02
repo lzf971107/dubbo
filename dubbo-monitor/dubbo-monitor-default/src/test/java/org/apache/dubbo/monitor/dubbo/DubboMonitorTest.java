@@ -29,7 +29,6 @@ import org.apache.dubbo.rpc.Protocol;
 import org.apache.dubbo.rpc.ProxyFactory;
 import org.apache.dubbo.rpc.Result;
 import org.apache.dubbo.rpc.RpcException;
-
 import org.hamcrest.CustomMatcher;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

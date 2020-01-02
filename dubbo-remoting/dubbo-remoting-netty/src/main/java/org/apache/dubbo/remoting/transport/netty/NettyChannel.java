@@ -23,7 +23,6 @@ import org.apache.dubbo.remoting.ChannelHandler;
 import org.apache.dubbo.remoting.RemotingException;
 import org.apache.dubbo.remoting.transport.AbstractChannel;
 import org.apache.dubbo.remoting.utils.PayloadDropper;
-
 import org.jboss.netty.channel.ChannelFuture;
 
 import java.net.InetSocketAddress;

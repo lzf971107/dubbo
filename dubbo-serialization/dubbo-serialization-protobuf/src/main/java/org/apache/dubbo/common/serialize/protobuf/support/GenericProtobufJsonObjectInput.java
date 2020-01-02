@@ -16,10 +16,6 @@
  */
 package org.apache.dubbo.common.serialize.protobuf.support;
 
-import org.apache.dubbo.common.serialize.ObjectInput;
-import org.apache.dubbo.common.serialize.protobuf.support.wrapper.MapValue;
-import org.apache.dubbo.common.serialize.protobuf.support.wrapper.ThrowablePB;
-
 import com.google.protobuf.BoolValue;
 import com.google.protobuf.BytesValue;
 import com.google.protobuf.DoubleValue;
@@ -27,6 +23,9 @@ import com.google.protobuf.FloatValue;
 import com.google.protobuf.Int32Value;
 import com.google.protobuf.Int64Value;
 import com.google.protobuf.StringValue;
+import org.apache.dubbo.common.serialize.ObjectInput;
+import org.apache.dubbo.common.serialize.protobuf.support.wrapper.MapValue;
+import org.apache.dubbo.common.serialize.protobuf.support.wrapper.ThrowablePB;
 
 import java.io.BufferedReader;
 import java.io.EOFException;

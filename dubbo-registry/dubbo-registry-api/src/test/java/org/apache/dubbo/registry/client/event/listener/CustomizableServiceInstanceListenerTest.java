@@ -18,7 +18,6 @@ package org.apache.dubbo.registry.client.event.listener;
 
 import org.apache.dubbo.registry.client.DefaultServiceInstanceTest;
 import org.apache.dubbo.registry.client.event.ServiceInstancePreRegisteredEvent;
-
 import org.junit.jupiter.api.Test;
 
 /**

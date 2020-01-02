@@ -49,7 +49,6 @@ import org.apache.dubbo.common.extension.ext9_empty.Ext9Empty;
 import org.apache.dubbo.common.extension.ext9_empty.impl.Ext9EmptyImpl;
 import org.apache.dubbo.common.extension.injection.InjectExt;
 import org.apache.dubbo.common.extension.injection.impl.InjectExtImpl;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

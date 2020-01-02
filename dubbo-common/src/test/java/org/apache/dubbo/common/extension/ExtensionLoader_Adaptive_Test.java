@@ -28,7 +28,6 @@ import org.apache.dubbo.common.extension.ext5.NoAdaptiveMethodExt;
 import org.apache.dubbo.common.extension.ext6_inject.Ext6;
 import org.apache.dubbo.common.extension.ext6_inject.impl.Ext6Impl2;
 import org.apache.dubbo.common.utils.LogUtil;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

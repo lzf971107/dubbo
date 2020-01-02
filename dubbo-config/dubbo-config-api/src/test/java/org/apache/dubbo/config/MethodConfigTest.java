@@ -20,7 +20,6 @@ package org.apache.dubbo.config;
 import org.apache.dubbo.config.annotation.Argument;
 import org.apache.dubbo.config.annotation.Method;
 import org.apache.dubbo.config.annotation.Reference;
-
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Test;
 

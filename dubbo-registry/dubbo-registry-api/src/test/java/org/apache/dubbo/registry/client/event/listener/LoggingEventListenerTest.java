@@ -28,7 +28,6 @@ import org.apache.dubbo.registry.client.event.ServiceInstancePreUnregisteredEven
 import org.apache.dubbo.registry.client.event.ServiceInstanceRegisteredEvent;
 import org.apache.dubbo.registry.client.event.ServiceInstanceUnregisteredEvent;
 import org.apache.dubbo.registry.client.event.ServiceInstancesChangedEvent;
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

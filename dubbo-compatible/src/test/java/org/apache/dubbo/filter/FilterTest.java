@@ -17,12 +17,11 @@
 
 package org.apache.dubbo.filter;
 
-import org.apache.dubbo.rpc.RpcException;
-
 import com.alibaba.dubbo.rpc.Filter;
 import com.alibaba.dubbo.rpc.Invocation;
 import com.alibaba.dubbo.rpc.Invoker;
 import com.alibaba.dubbo.rpc.Result;
+import org.apache.dubbo.rpc.RpcException;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

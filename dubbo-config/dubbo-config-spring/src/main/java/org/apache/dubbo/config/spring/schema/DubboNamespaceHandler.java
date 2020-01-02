@@ -16,6 +16,7 @@
  */
 package org.apache.dubbo.config.spring.schema;
 
+import com.alibaba.spring.util.AnnotatedBeanDefinitionRegistryUtils;
 import org.apache.dubbo.common.Version;
 import org.apache.dubbo.config.ApplicationConfig;
 import org.apache.dubbo.config.ConsumerConfig;
@@ -33,8 +34,6 @@ import org.apache.dubbo.config.spring.ServiceBean;
 import org.apache.dubbo.config.spring.beans.factory.config.ConfigurableSourceBeanMetadataElement;
 import org.apache.dubbo.config.spring.context.DubboBootstrapApplicationListener;
 import org.apache.dubbo.config.spring.context.DubboLifecycleComponentApplicationListener;
-
-import com.alibaba.spring.util.AnnotatedBeanDefinitionRegistryUtils;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
 import org.springframework.beans.factory.xml.NamespaceHandlerSupport;

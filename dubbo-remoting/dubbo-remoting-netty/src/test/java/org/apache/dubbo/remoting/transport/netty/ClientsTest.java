@@ -18,7 +18,6 @@ package org.apache.dubbo.remoting.transport.netty;
 
 import org.apache.dubbo.common.extension.ExtensionLoader;
 import org.apache.dubbo.remoting.Transporter;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
