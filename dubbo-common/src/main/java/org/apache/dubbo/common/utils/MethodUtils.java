@@ -21,6 +21,10 @@ import java.lang.reflect.Modifier;
 
 public class MethodUtils {
 
+    private MethodUtils() {
+
+    }
+
     public static boolean isSetter(Method method) {
         return method.getName().startsWith("set")
                 && !"set".equals(method.getName())
